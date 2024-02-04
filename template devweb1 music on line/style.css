@@ -55,6 +55,7 @@ header {
   border: none;
   color: #292870;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .btn-2 {
@@ -63,10 +64,10 @@ header {
   border: none;
   color: white;
   background-color: #292870;
+  cursor: pointer;
 }
 
 .bloc-bleu {
-  /* height: 410px; */
   height: 100%;
   width: 100%;
   background-color: #292870;
@@ -74,14 +75,10 @@ header {
 
 .bloc-bleu p {
   color: white;
-  /* padding-top: 6px;
-  padding-left: 180px; */
 }
 
 .bloc-bleu h3 {
   color: #ffaf39;
-  /* padding-left: 100px;
-  padding-top: 80px; */
 }
 
 .access {
@@ -97,8 +94,6 @@ header {
   height: 75%;
   padding-bottom: 50px;
   margin-left: 700px;
-  /* margin: auto; */
-  /* margin-left: 640px; */
 }
 
 .benefits h2 {
@@ -132,6 +127,7 @@ header {
   color: #292870;
   background-color: #ffaf39;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .live-music {
@@ -143,11 +139,10 @@ header {
   display: flex;
 }
 
-.live-music img {
-  width: 42%;
-  padding-top: 50px;
+.live-music-image img {
+  width: 60%;
+  padding-top: 100px;
   padding-right: 50px;
-  /* padding-right: 100px; */
 }
 
 .music h2 {
@@ -168,14 +163,15 @@ header {
   color: white;
   font-size: 30px;
   padding-left: 90px;
-  padding-top: 130px;
-  padding-bottom: 15px;
+  padding-top: 98px;
+  padding-bottom: 20px;
 }
 
 .music p {
   color: white;
   padding-left: 90px;
-  width: 50%;
+  width: 70%;
+  padding-bottom: 20px;
 }
 
 .from p {
@@ -266,6 +262,7 @@ header {
   background-color: #ffaf39;
   font-weight: bold;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .live-music-2 {
@@ -311,6 +308,7 @@ header {
   background-color: #ffaf39;
   font-weight: bold;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .fond-concept {
@@ -339,6 +337,7 @@ header {
   background-color: #ffaf39;
   font-weight: bold;
   margin-top: 16px;
+  cursor: pointer;
 }
 
 .text-concert {
@@ -384,7 +383,7 @@ header {
 
 .info {
   margin: auto;
-  width: 750px;
+  width: 780px;
   height: 370px;
   background-color: white;
   display: flex;
@@ -392,19 +391,24 @@ header {
   padding-top: 60px;
 }
 
+.essaie p {
+  padding-top: 20px;
+}
+
+.essaie img {
+  padding-right: 5px;
+}
+
 .essaie h3 {
   font-size: 27px;
   color: #292870;
 }
 
-.formulaire {
-}
-
 .formulaire input {
   margin: 4px;
-  padding: 5px;
+  padding: 8px;
   width: 100%;
-  background-color: #ffaf39;
+  background-color: #efab47;
   border: hidden;
 }
 
@@ -415,11 +419,13 @@ header {
   background-color: #292870;
   border: hidden;
   margin: 4px;
+  cursor: pointer;
 }
 
 textarea {
   border: hidden;
-  background-color: #ffaf39;
+  background-color: #efab47;
+  /* color: white; */
   color: white;
   padding: 10px;
   margin: 4px;
