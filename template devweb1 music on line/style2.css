@@ -1,15 +1,17 @@
+/* Réinitialisation des styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
+/* Barre de navigation */
 .navbar {
   background: #292870;
   height: 50px;
 }
 
+/* Logo */
 .logo img {
   padding-left: 10px;
   margin-left: 80px;
@@ -17,83 +19,83 @@
   padding-top: 10px;
 }
 
+/* En-tête */
 header {
-  background-image: url(./IMG/ggggg-min.jpg);
-  height: 100%;
-  width: 100vw;
-  background-size: cover;
-  background-position: center;
+  background: url(./IMG/ggggg-min.jpg) center/cover no-repeat;
+  height: 100vh;
 }
 
+/* Section Casque */
 .casque {
   text-align: center;
+  padding: 40px 0;
+  color: white;
 }
 
 .casque img {
-  padding-top: 40px;
+  width: 50px;
 }
 
 .casque h1 {
   font-size: 50px;
-  color: white;
-  padding-bottom: 30px;
   font-weight: bold;
+  padding: 30px 0;
 }
 
 .casque p {
-  color: white;
-  padding-bottom: 30px;
   font-weight: bold;
 }
 
-.underline {
-  text-decoration: underline;
+/* Boutons généraux */
+.btn-1,
+.btn-2,
+.btn-read,
+.btn-read-2,
+.btn-read-3,
+.btn-read-4 {
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
 }
 
+/* Bouton avec texte coloré */
 .btn-1 {
-  padding: 11px 25px 11px 25px;
-  border-radius: 20px;
-  border: none;
   color: #292870;
-  font-weight: bold;
-  cursor: pointer;
 }
 
-.btn-2 {
-  padding: 11px 25px 11px 25px;
-  border-radius: 20px;
-  border: none;
+/* Bouton avec texte blanc sur fond coloré */
+.btn-2,
+.btn-read,
+.btn-read-2,
+.btn-read-3,
+.btn-read-4 {
   color: white;
   background-color: #292870;
-  cursor: pointer;
 }
 
-.personne-1 img {
+/* .personne-1 img {
   width: 50%;
-}
+} */
 
+/* Section Bloc Bleu */
 .bloc-bleu {
-  height: 100%;
-  width: 100vw;
   background-color: #292870;
-}
-
-.bloc-bleu p {
   color: white;
+  padding: 30px 0;
 }
 
-.bloc-bleu h3 {
-  color: #ffaf39;
-}
-
+/* Section Accès illimité */
 .access {
   padding: 50px 0 0 110px;
+  color: white;
 }
 
 .access h3 {
   padding-bottom: 10px;
 }
 
+/* Section Avantages */
 .benefits {
   width: 21%;
   height: 75%;
@@ -125,22 +127,10 @@ header {
   background-color: #ffaf39;
 }
 
-.btn-read {
-  padding: 11px 25px 11px 25px;
-  border-radius: 20px;
-  border: none;
-  color: #292870;
-  background-color: #ffaf39;
-  font-weight: bold;
-  cursor: pointer;
-}
-
+/* Section Musique en direct */
 .live-music {
-  background-image: url(./IMG/dffffffffffffffff-min.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
+  background: url(./IMG/dffffffffffffffff-min.jpg) center/cover no-repeat;
+  width: 100%;
   display: flex;
 }
 
@@ -150,98 +140,60 @@ header {
   padding-right: 50px;
 }
 
-.music h2 {
+/* Section Musique */
+.music {
   color: white;
-  padding-top: 50px;
   padding-left: 90px;
+}
+
+.music h2 {
   font-size: 65px;
+  padding-top: 50px;
 }
 
 .music h3 {
   font-size: 38px;
-  color: white;
-  padding-left: 90px;
   padding-bottom: 20px;
 }
 
 .music h4 {
-  color: white;
   font-size: 30px;
-  padding-left: 90px;
   padding-top: 98px;
   padding-bottom: 20px;
 }
 
 .music p {
-  color: white;
-  padding-left: 90px;
   width: 70%;
   padding-bottom: 20px;
 }
 
 .from p {
-  color: white;
-  padding-left: 80px;
+  padding-bottom: 20px;
 }
 
+/* Section Comment ça marche */
 .works {
-  height: 480px;
-  width: 100vw;
   background-color: #292870;
   color: #ffaf39;
-}
-
-.works h2 {
-  padding-left: 115px;
-  padding-top: 70px;
-  font-size: 40px;
+  padding: 70px 0 0 115px;
 }
 
 .container {
   display: flex;
-  width: 85vw;
+  width: 85%;
   padding-top: 30px;
   margin: auto;
 }
 
-.create {
-  padding: 20px;
-}
-
-.create img {
-  background-color: #ffaf39;
-  border-radius: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-}
-
-.create p {
-  color: white;
-}
-
-.plan {
-  padding: 20px;
-}
-
-.plan img {
-  background-color: #ffaf39;
-  border-radius: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-}
-
-.plan p {
-  color: white;
-}
-
+.create,
+.plan,
 .choose {
+  flex: 1;
   padding: 20px;
 }
 
-.choose p {
-  color: white;
-}
-
+.create img,
+.plan img,
 .choose img {
   background-color: #ffaf39;
   border-radius: 100%;
@@ -249,33 +201,16 @@ header {
   margin-bottom: 15px;
 }
 
-.create h4 {
-  padding-bottom: 20px;
-}
-.plan h4 {
-  padding-bottom: 20px;
-}
+.create h4,
+.plan h4,
 .choose h4 {
   padding-bottom: 20px;
 }
 
-.btn-read-2 {
-  padding: 10px 30px 10px 30px;
-  border-radius: 20px;
-  border: none;
-  color: #292870;
-  background-color: #ffaf39;
-  font-weight: bold;
-  margin-top: 30px;
-  cursor: pointer;
-}
-
+/* Section Musique en direct 2 */
 .live-music-2 {
-  background-image: url(./IMG/aaaaa-min.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
+  background: url(./IMG/aaaaa-min.jpg) center/cover no-repeat;
+  width: 100%;
   height: 500px;
   display: flex;
   align-items: center;
@@ -292,8 +227,8 @@ header {
 }
 
 .lorem h2 {
-  padding-top: 30px;
   font-size: 60px;
+  padding-top: 30px;
 }
 
 .lorem h3 {
@@ -305,44 +240,8 @@ header {
   padding-top: 30px;
 }
 
-.btn-read-3 {
-  padding: 10px 30px 10px 30px;
-  border-radius: 20px;
-  border: none;
-  color: white;
-  background-color: #ffaf39;
-  font-weight: bold;
-  margin-top: 30px;
-  cursor: pointer;
-}
-
-.fond-concept {
-  background: #292870;
-  width: 100vw;
-  /* height: 490px; */
-  padding-bottom: 50px;
-}
-
-.photos-concert {
-  display: flex;
-  justify-content: center;
-  gap: 1.5%;
-  padding-top: 50px;
-}
-
-.artist {
-  display: flex;
-}
-
 .btn-read-4 {
-  padding: 10px 30px 10px 30px;
-  border-radius: 20px;
-  border: none;
-  color: #292870;
-  background-color: #ffaf39;
-  font-weight: bold;
   margin-top: 16px;
-  cursor: pointer;
 }
 
 .text-concert {
@@ -351,6 +250,20 @@ header {
   margin: auto;
   padding-top: 80px;
   color: white;
+}
+
+/* Section Notre Concept et Artistes */
+.fond-concept {
+  background: #292870;
+  color: #ffaf39;
+  padding-bottom: 50px;
+}
+
+.photos-concert {
+  display: flex;
+  justify-content: center;
+  gap: 1.5%;
+  padding-top: 50px;
 }
 
 .our {
@@ -362,7 +275,6 @@ header {
 }
 
 .our h2 {
-  color: #ffaf39;
   font-size: 40px;
   padding-bottom: 10px;
 }
@@ -371,12 +283,9 @@ header {
   color: white;
 }
 
+/* Section Contact */
 .contact {
-  background-image: url(./IMG/dddd-min.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
+  background: url(./IMG/dddd-min.jpg) center/cover no-repeat;
   height: 500px;
   padding-top: 50px;
 }
@@ -410,7 +319,8 @@ header {
   color: #292870;
 }
 
-.formulaire input {
+.formulaire input,
+textarea {
   margin: 4px;
   padding: 8px;
   width: 100%;
@@ -429,13 +339,7 @@ header {
 }
 
 textarea {
-  border: hidden;
-  background-color: #efab47;
-  /* color: white; */
-  color: white;
   padding: 10px;
-  margin: 4px;
-  width: 100%;
 }
 
 .info p {
@@ -443,9 +347,9 @@ textarea {
   text-align: start;
 }
 
+/* Pied de page */
 footer {
   height: 100px;
-  width: 100vw;
   background-color: #292870;
 }
 
