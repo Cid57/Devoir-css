@@ -85,7 +85,7 @@ header {
 }
 
 .access {
-  padding: 50px 0 0 80px;
+  padding: 50px 0 0 110px;
 }
 
 .access h3 {
@@ -93,10 +93,11 @@ header {
 }
 
 .benefits {
-  width: 23%;
+  width: 21%;
   height: 75%;
-  padding-bottom: 20px;
-  margin: auto;
+  padding-bottom: 50px;
+  margin-left: 700px;
+  /* margin: auto; */
   /* margin-left: 640px; */
 }
 
@@ -114,8 +115,14 @@ header {
 
 .benefits p {
   font-size: 13px;
-  padding-bottom: 30px;
+  padding-bottom: 18px;
   padding-top: 10px;
+}
+
+.barre {
+  width: 170px;
+  height: 5px;
+  background-color: #ffaf39;
 }
 
 .btn-read {
@@ -136,8 +143,11 @@ header {
   display: flex;
 }
 
-.music {
-  width: 70%;
+.live-music img {
+  width: 42%;
+  padding-top: 50px;
+  padding-right: 50px;
+  /* padding-right: 100px; */
 }
 
 .music h2 {
@@ -154,20 +164,23 @@ header {
   padding-bottom: 20px;
 }
 
+.music h4 {
+  color: white;
+  font-size: 30px;
+  padding-left: 90px;
+  padding-top: 130px;
+  padding-bottom: 15px;
+}
+
 .music p {
   color: white;
   padding-left: 90px;
+  width: 50%;
 }
 
 .from p {
   color: white;
   padding-left: 80px;
-}
-
-.live-music img {
-  width: 42%;
-  padding-top: 50px;
-  padding-right: 100px;
 }
 
 .works {
@@ -201,6 +214,10 @@ header {
   margin-bottom: 15px;
 }
 
+.create p {
+  color: white;
+}
+
 .plan {
   padding: 20px;
 }
@@ -212,8 +229,16 @@ header {
   margin-bottom: 15px;
 }
 
+.plan p {
+  color: white;
+}
+
 .choose {
   padding: 20px;
+}
+
+.choose p {
+  color: white;
 }
 
 .choose img {
@@ -249,14 +274,18 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  padding-top: 50px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.image img {
+  width: 70%;
 }
 
 .lorem {
-  float: right;
   color: white;
-  width: 40%;
-  margin-right: 180px;
+  padding-right: 180px;
   text-align: left;
 }
 
@@ -282,4 +311,133 @@ header {
   background-color: #ffaf39;
   font-weight: bold;
   margin-top: 30px;
+}
+
+.fond-concept {
+  background: #292870;
+  width: 100vw;
+  /* height: 490px; */
+  padding-bottom: 50px;
+}
+
+.photos-concert {
+  display: flex;
+  justify-content: center;
+  gap: 1.5%;
+  padding-top: 50px;
+}
+
+.artist {
+  display: flex;
+}
+
+.btn-read-4 {
+  padding: 10px 25px 10px 25px;
+  border-radius: 20px;
+  border: none;
+  color: #292870;
+  background-color: #ffaf39;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.text-concert {
+  width: 50%;
+  align-items: center;
+  margin: auto;
+  padding-top: 80px;
+  color: white;
+}
+
+.our {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding: 25px 0 0 25px;
+}
+
+.our h2 {
+  color: #ffaf39;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.our p {
+  color: white;
+}
+
+.contact {
+  background-image: url(./IMG/dddd-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding-top: 50px;
+}
+
+.contact p {
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.info {
+  margin: auto;
+  width: 750px;
+  height: 370px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 60px;
+}
+
+.essaie h3 {
+  font-size: 27px;
+  color: #292870;
+}
+
+.formulaire {
+}
+
+.formulaire input {
+  margin: 4px;
+  padding: 5px;
+  width: 100%;
+  background-color: #ffaf39;
+  border: hidden;
+}
+
+.formulaire button {
+  width: 100%;
+  padding: 8px;
+  color: white;
+  background-color: #292870;
+  border: hidden;
+  margin: 4px;
+}
+
+textarea {
+  border: hidden;
+  background-color: #ffaf39;
+  color: white;
+  padding: 10px;
+  margin: 4px;
+  width: 100%;
+}
+
+.info p {
+  color: black;
+  text-align: start;
+}
+
+footer {
+  height: 100px;
+  background-color: #292870;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
 }
