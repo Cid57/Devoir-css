@@ -1,15 +1,19 @@
+/* Réinitialisation des marges, des rembourrages et de la boîte de modèle */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
 }
 
+/* Styles de la barre de navigation */
 .navbar {
   background: #292870;
   height: 50px;
 }
 
+/* Styles du logo dans la barre de navigation */
 .logo img {
   padding-left: 10px;
   margin-left: 80px;
@@ -17,22 +21,25 @@
   padding-top: 10px;
 }
 
+/* Styles de l'en-tête avec une image de fond */
 header {
   background-image: url(./IMG/ggggg-min.jpg);
-  height: 100%;
   width: 100vw;
   background-size: cover;
   background-position: center;
 }
 
+/* Styles de la section principale de l'en-tête */
 .casque {
   text-align: center;
 }
 
+/* Styles pour l'image dans la section principale de l'en-tête */
 .casque img {
   padding-top: 40px;
 }
 
+/* Styles pour le titre dans la section principale de l'en-tête */
 .casque h1 {
   font-size: 50px;
   color: white;
@@ -40,16 +47,19 @@ header {
   font-weight: bold;
 }
 
+/* Styles pour le texte dans la section principale de l'en-tête */
 .casque p {
   color: white;
   padding-bottom: 30px;
   font-weight: bold;
 }
 
+/* Sous-lignage des éléments de texte */
 .underline {
   text-decoration: underline;
 }
 
+/* Styles pour les boutons d'action */
 .btn-1 {
   padding: 11px 25px 11px 25px;
   border-radius: 20px;
@@ -68,32 +78,38 @@ header {
   cursor: pointer;
 }
 
+/* Styles pour l'image de personne */
 .personne-1 img {
   width: 50%;
 }
 
+/* Styles pour la section du bloc bleu */
 .bloc-bleu {
-  height: 100%;
   width: 100vw;
   background-color: #292870;
 }
 
+/* Styles pour le texte dans la section du bloc bleu */
 .bloc-bleu p {
   color: white;
 }
 
+/* Styles pour le titre dans la section du bloc bleu */
 .bloc-bleu h3 {
   color: #ffaf39;
 }
 
+/* Styles pour la section sur l'accès illimité */
 .access {
   padding: 50px 0 0 110px;
 }
 
+/* Styles pour le titre dans la section sur l'accès illimité */
 .access h3 {
   padding-bottom: 10px;
 }
 
+/* Styles pour la section des avantages */
 .benefits {
   width: 21%;
   height: 75%;
@@ -101,30 +117,35 @@ header {
   margin-left: 700px;
 }
 
+/* Styles pour le titre dans la section des avantages */
 .benefits h2 {
   color: #ffaf39;
   font-weight: bold;
   padding-bottom: 10px;
 }
 
+/* Styles pour l'image dans la section des avantages */
 .benefits img {
   width: 52%;
   border-radius: 100%;
   padding-bottom: 15px;
 }
 
+/* Styles pour le texte dans la section des avantages */
 .benefits p {
   font-size: 13px;
   padding-bottom: 18px;
   padding-top: 10px;
 }
 
+/* Barre décorative */
 .barre {
   width: 170px;
   height: 5px;
   background-color: #ffaf39;
 }
 
+/* Styles pour les boutons de lecture */
 .btn-read {
   padding: 11px 25px 11px 25px;
   border-radius: 20px;
@@ -135,6 +156,7 @@ header {
   cursor: pointer;
 }
 
+/* Styles pour la section de musique en direct */
 .live-music {
   background-image: url(./IMG/dffffffffffffffff-min.jpg);
   background-position: center;
@@ -144,12 +166,13 @@ header {
   display: flex;
 }
 
+/* Styles pour l'image de musique en direct */
 .live-music-image img {
   width: 60%;
-  padding-top: 100px;
-  padding-right: 50px;
+  padding-top: 85px;
 }
 
+/* Styles pour le titre dans la section de musique en direct */
 .music h2 {
   color: white;
   padding-top: 50px;
@@ -157,13 +180,16 @@ header {
   font-size: 65px;
 }
 
+/* Styles pour le sous-titre dans la section de musique en direct */
 .music h3 {
   font-size: 38px;
   color: white;
   padding-left: 90px;
   padding-bottom: 20px;
+  font-weight: 500;
 }
 
+/* Styles pour le prix dans la section de musique en direct */
 .music h4 {
   color: white;
   font-size: 30px;
@@ -172,6 +198,7 @@ header {
   padding-bottom: 20px;
 }
 
+/* Styles pour le texte dans la section de musique en direct */
 .music p {
   color: white;
   padding-left: 90px;
@@ -179,11 +206,13 @@ header {
   padding-bottom: 20px;
 }
 
+/* Styles pour le paragraphe dans la section de musique en direct */
 .from p {
   color: white;
   padding-left: 80px;
 }
 
+/* Styles pour la section sur le fonctionnement du service */
 .works {
   height: 480px;
   width: 100vw;
@@ -191,12 +220,14 @@ header {
   color: #ffaf39;
 }
 
+/* Styles pour le titre dans la section sur le fonctionnement du service */
 .works h2 {
   padding-left: 115px;
   padding-top: 70px;
   font-size: 40px;
 }
 
+/* Styles pour le conteneur des étapes */
 .container {
   display: flex;
   width: 85vw;
@@ -204,6 +235,7 @@ header {
   margin: auto;
 }
 
+/* Styles pour l'étape de création de compte */
 .create {
   padding: 20px;
 }
@@ -219,6 +251,7 @@ header {
   color: white;
 }
 
+/* Styles pour l'étape de choix d'un plan */
 .plan {
   padding: 20px;
 }
@@ -234,6 +267,7 @@ header {
   color: white;
 }
 
+/* Styles pour l'étape de téléchargement de musique */
 .choose {
   padding: 20px;
 }
@@ -249,16 +283,22 @@ header {
   margin-bottom: 15px;
 }
 
+/* Styles pour le titre de l'étape de création de compte */
 .create h4 {
   padding-bottom: 20px;
 }
+
+/* Styles pour le titre de l'étape de choix d'un plan */
 .plan h4 {
   padding-bottom: 20px;
 }
+
+/* Styles pour le titre de l'étape de téléchargement de musique */
 .choose h4 {
   padding-bottom: 20px;
 }
 
+/* Styles pour les boutons de lecture de l'étape 2 */
 .btn-read-2 {
   padding: 10px 30px 10px 30px;
   border-radius: 20px;
@@ -270,6 +310,7 @@ header {
   cursor: pointer;
 }
 
+/* Styles pour la deuxième section de musique en direct */
 .live-music-2 {
   background-image: url(./IMG/aaaaa-min.jpg);
   background-position: center;
@@ -281,30 +322,36 @@ header {
   align-items: center;
 }
 
+/* Styles pour l'image dans la deuxième section de musique en direct */
 .image img {
   width: 70%;
 }
 
+/* Styles pour le texte dans la deuxième section de musique en direct */
 .lorem {
   color: white;
   padding-right: 180px;
-  text-align: left;
 }
 
+/* Styles pour le titre dans la deuxième section de musique en direct */
 .lorem h2 {
   padding-top: 30px;
-  font-size: 60px;
+  font-size: 56px;
 }
 
+/* Styles pour le sous-titre dans la deuxième section de musique en direct */
 .lorem h3 {
   font-size: 37px;
   font-weight: 100;
+  letter-spacing: 1px;
 }
 
+/* Styles pour le paragraphe dans la deuxième section de musique en direct */
 .lorem p {
   padding-top: 30px;
 }
 
+/* Styles pour le bouton de lecture dans la deuxième section de musique en direct */
 .btn-read-3 {
   padding: 10px 30px 10px 30px;
   border-radius: 20px;
@@ -316,13 +363,14 @@ header {
   cursor: pointer;
 }
 
+/* Styles pour la section sur le concept et les artistes */
 .fond-concept {
   background: #292870;
   width: 100vw;
-  /* height: 490px; */
   padding-bottom: 50px;
 }
 
+/* Styles pour la disposition des photos des concerts */
 .photos-concert {
   display: flex;
   justify-content: center;
@@ -330,10 +378,12 @@ header {
   padding-top: 50px;
 }
 
+/* Styles pour la section des artistes */
 .artist {
   display: flex;
 }
 
+/* Styles pour le bouton de lecture dans la section des artistes */
 .btn-read-4 {
   padding: 10px 30px 10px 30px;
   border-radius: 20px;
@@ -345,6 +395,7 @@ header {
   cursor: pointer;
 }
 
+/* Styles pour le texte dans la section des artistes */
 .text-concert {
   width: 50%;
   align-items: center;
@@ -353,6 +404,7 @@ header {
   color: white;
 }
 
+/* Styles pour le conteneur de notre concept et artistes */
 .our {
   display: flex;
   flex-direction: column;
@@ -361,16 +413,19 @@ header {
   padding: 25px 0 0 25px;
 }
 
+/* Styles pour le titre dans le conteneur de notre concept et artistes */
 .our h2 {
   color: #ffaf39;
   font-size: 40px;
   padding-bottom: 10px;
 }
 
+/* Styles pour le paragraphe dans le conteneur de notre concept et artistes */
 .our p {
   color: white;
 }
 
+/* Styles pour la section de contact */
 .contact {
   background-image: url(./IMG/dddd-min.jpg);
   background-position: center;
@@ -381,12 +436,14 @@ header {
   padding-top: 50px;
 }
 
+/* Styles pour le paragraphe dans la section de contact */
 .contact p {
   color: white;
   text-align: center;
   padding-top: 15px;
 }
 
+/* Styles pour les informations de contact */
 .info {
   margin: auto;
   width: 780px;
@@ -397,19 +454,23 @@ header {
   padding-top: 60px;
 }
 
+/* Styles pour les informations dans la section de contact */
 .essaie p {
   padding-top: 20px;
 }
 
+/* Styles pour les icônes dans la section de contact */
 .essaie img {
   padding-right: 5px;
 }
 
+/* Styles pour le titre dans la section de contact */
 .essaie h3 {
   font-size: 27px;
   color: #292870;
 }
 
+/* Styles pour le formulaire dans la section de contact */
 .formulaire input {
   margin: 4px;
   padding: 8px;
@@ -418,6 +479,7 @@ header {
   border: hidden;
 }
 
+/* Styles pour le bouton dans le formulaire de contact */
 .formulaire button {
   width: 100%;
   padding: 8px;
@@ -428,27 +490,30 @@ header {
   cursor: pointer;
 }
 
+/* Styles pour la zone de texte dans le formulaire de contact */
 textarea {
   border: hidden;
   background-color: #efab47;
-  /* color: white; */
   color: white;
   padding: 10px;
   margin: 4px;
   width: 100%;
 }
 
+/* Styles pour les informations dans la section de contact */
 .info p {
   color: black;
   text-align: start;
 }
 
+/* Styles pour le pied de page */
 footer {
   height: 100px;
   width: 100vw;
   background-color: #292870;
 }
 
+/* Styles pour le texte dans le pied de page */
 footer p {
   color: white;
   text-align: center;
